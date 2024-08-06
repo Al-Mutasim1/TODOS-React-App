@@ -1,0 +1,131 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@300&display=swap');
+:root
+{
+    --main-color:#0aad0a;
+    --light-color:#f0f3f2;
+    --shadow: rgba(145,158,171,.2) 0px 2px 4px -1px,rgba(145,158,171,.14) 0px 4px 5px 0px,rgba(145,158,171,.12) 0px 1px 10px 0px;
+    --font-family:'Encode Sans Expanded', sans-serif;
+    --rating-color:#ffc908;
+   
+}
+.gradient-custom {
+  background: radial-gradient(50% 123.47% at 50% 50%, #00ff94 0%, #720059 100%),
+    linear-gradient(121.28deg, #669600 0%, #ff0000 100%),
+    linear-gradient(360deg, #0029ff 0%, #8fff00 100%),
+    radial-gradient(100% 164.72% at 100% 100%, #6100ff 0%, #00ff57 100%),
+    radial-gradient(100% 148.07% at 0% 0%, #fff500 0%, #51d500 100%) !important;
+  background-blend-mode: screen, color-dodge, overlay, difference, normal !important;
+}
+
+
+body{
+    font-family: var(--font-family) !important;
+}
+
+.cursor-pointer
+{
+    cursor: pointer;
+}
+a , a:hover{
+   
+    text-decoration: none !important;
+}
+
+
+
+
+.font-sm
+{
+    font-size: 14px;
+}
+
+.bg-main-light 
+{
+    background-color: var(--light-color) !important;
+}
+
+.font-size{
+    font-size: 8rem;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    color: rgba(73, 66, 66, 0.398);
+    
+}
+
+.height{
+    height: 150px !important;
+}
+
+
+
+ .main-title:focus{
+  background-color: #81b29a !important;
+   color:#f0f3f2 !important;
+   text-decoration: none !important;
+ 
+ }
+ 
+.bolder{
+  font-weight: 600;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif!important;
+}
+
+.main-text{
+  color: #f4f1de !important;
+}
+.white-text{
+  color: #f0f3f2!important;
+}
+.bg-white{
+  background-color: #f0f3f2 !important;
+}
+.primary-text{
+  color: #3d405b !important;
+}
+.secondary-text{
+  color: #81b29a !important;
+}
+
+.third-text{
+  background-color: #B68D40 !important;
+}
+
+.bg-main{
+  background-color: #f4f1de !important;
+}
+.bg-darkness{
+  background-color: #264653 !important;
+}
+.bg-green{
+  background-color: #81b29a !important;
+}
+
+.bg-third{
+  background-color: #4a5759 !important;
+}
+
+li ul{
+  list-style-type: none;
+  text-decoration: none;
+}
+.test{
+  color:#2a9d8f !important;
+}
+.bg-d{
+  background-color:#a8dadc !important;
+}
+
+.myBtn:hover{
+  background-color: #15616d !important;
+ 
+
+}
+
+.checkBtn:focus{
+  background-color: green !important;
+  color: white !important;
+}
+
+.height{
+  
+}
